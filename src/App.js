@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Dog from "./Dog";
 const App = () => {
-  var arr = [1, 2, 3, 4];
+   var arr = [1, 2, 3, 4];
 
   return React.createElement(
     "div", //tag
@@ -28,6 +28,7 @@ const App = () => {
       }),
     ] //content can be another component also
   );
+
 };
 
 ReactDOM.render(
